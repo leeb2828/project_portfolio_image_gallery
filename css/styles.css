@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Carme);
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-family: carme, sans-serif;
+    /* background: #EDB88B; */
+    background: rgb(165, 162, 162);
+    overflow-x: hidden;
+}
+
+.whitespace {
+    background: #fff;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1324px;
+    min-height: 100px;
+}
+
+/* Main Content */
+main {
+    background: #fff;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1324px;
+    min-height: 100vh;
+}
+
+#portfolio_title {
+    letter-spacing: 3px;
+    background: rgb(33, 30, 80);
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    margin-top: 0;
+}
+
+#photos {
+    width: 100%;
+    /* CSS GRID */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 3fr));
+    grid-gap: 1em;
+}
+
+.flex_image {
+    padding: 5px;
+    height: 100%;
+    /* FLEXBOX */
+    display: flex;
+    display: -ms-flexbox; /* IE 10 */
+    flex-direction: column;
+}
+
+/* project title */
+div.title {
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}
+
+.title h4 {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.flex_image img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+
+/* Media query */
+@media screen and (min-width: 668px) {
+    body {
+        font-size: 16px;
+    }
+} 
+/* end of media query */

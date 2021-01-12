@@ -1,0 +1,63 @@
+/* iPADS */
+
+@media screen and (min-width: 668px) {
+    
+    /* Font sizes */
+    body,
+    #name_and_social_media {
+        font-size: 16px;
+    }
+
+    .header_title {
+        font-size: 20px;
+    }
+
+    p.school,
+    p.project_name {
+        font-size: 17px;
+    }
+    
+    .skillset li {
+        font-size: 15px;
+    }
+
+    p.degree_type,
+    p.major {
+        font-size: 16px;
+    }
+
+    /* Main Content */
+    main {
+        margin: 0 auto;
+        min-height: calc(100vh - 75px);
+    }
+
+    #profile_image {
+        width: 110px;
+        height: 110px;
+    }
+
+    .profile_pic {
+        width: 100px;
+        
+    }
+
+    #name_and_social_media {
+        width: 150px;
+    }
+
+    a.social_media {
+        width: 30px;
+        height: 30px;
+        background-size: 30px 30px;
+    }
+
+    #personal_description {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    
+
+}
+
